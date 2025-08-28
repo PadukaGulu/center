@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portal Kelompok — Link GitHub (Hitam & Emas)</title>
+  <style>
+    :root{
+      --bg:#060608;
+      --gold-1: #e6b86e;
+      --gold-2: #ffdd88;
+      --muted: #b9b0a3;
+      --card-bg: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.12));
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+    body{
+      min-height:150%;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:
+        radial-gradient(600px 300px at 10% 10%, rgba(230,184,110,0.06), transparent 12%),
+        radial-gradient(400px 200px at 90% 90%, rgba(255,221,136,0.04), transparent 8%),
+        var(--bg);
+      color:#f6f3ef;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:28px;
+    }
+
+    .wrap{
+      width:min(9080px, 96%);
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.08));
+      border: 1px solid rgba(230,184,110,0.12);
+      border-radius:18px;
+      padding:28px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+      backdrop-filter: blur(6px) saturate(120%);
+    }
+
+.group-photo{
+  width:100%;
+  aspect-ratio:16/9;
+  border-radius:14px;
+  overflow:hidden;
+  margin-bottom:22px;
+  border:1px solid rgba(230,184,110,0.15);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  position:relative;
+}
+
+.group-photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.group-photo .overlay-text{
+  position:absolute;
+  top:12px;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:#fff;
+  font-size:22px;
+  font-weight:700;
+  text-align:center;
+  padding:10px 20px;
+  background:rgba(0,0,0,0.45); 
+  border-radius:10px;
+  border:1px solid rgba(230,184,110,0.5);
+  text-shadow:0 2px 6px rgba(0,0,0,0.7);
+}
+
+
+    header{
+      display:flex;
+      align-items:center;
+      gap:16px;
+      margin-bottom:20px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:12px;
+      background: linear-gradient(135deg, rgba(230,184,110,0.18), rgba(255,221,136,0.06));
+      display:grid;place-items:center;
+      font-weight:700;color:var(--gold-1);
+      border:1px solid rgba(230,184,110,0.14);
+      font-size:18px;
+    }
+    h1{font-size:20px;color:#fff;}
+    p.lead{color:var(--muted);font-size:13px;margin-top:4px}
+
+    .grid{
+      display:grid;
+      gap:16px;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    @media (max-width:920px){.grid{grid-template-columns: repeat(2, 1fr)}}
+    @media (max-width:460px){.grid{grid-template-columns: 1fr}}
+
+    .card{
+      display:flex;gap:14px;align-items:center;
+      padding:14px;border-radius:12px;
+      background:var(--card-bg);
+      border:1px solid rgba(255,255,255,0.02);
+      text-decoration:none;color:inherit;
+      transition:.17s;
+    }
+    .card:hover{
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.6);
+      border-color: rgba(230,184,110,0.3);
+    }
+    .avatar{
+      width:56px;height:56px;border-radius:10px;
+      display:grid;place-items:center;
+      font-weight:800;color:#0b0b09;
+      background: linear-gradient(135deg,var(--gold-2),var(--gold-1));
+    }
+    .meta .name{font-weight:700;font-size:15px;color:#fff;}
+    .meta .sub{font-size:13px;color:var(--muted);margin-top:6px;word-break:break-all;}
+    .badge{
+      margin-left:auto;
+      background: linear-gradient(180deg, rgba(230,184,110,0.18), rgba(255,221,136,0.06));
+      color: #0b0b09;
+      padding:6px 10px;border-radius:999px;font-weight:700;font-size:13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    
+<div class="group-photo">
+  <img src="FG.jpg" alt="Foto bersama kelompok">
+  <div class="overlay-text">XII A2 2 — The Four Horseman</div>
+</div>
+
+    <header>
+      <div class="logo">GH</div>
+      <div>
+        <h1>Portal Kelompok — Terminal Link HTML(GitHub)</h1>
+        <p class="lead">Klik salah satu kartu untuk membuka HTML anggota.</p>
+      </div>
+    </header>
+
+    <section class="grid">
+
+      <a class="card" href="https://toricelli123456-cmyk.github.io/bruh-meme/"><div class="avatar">A1</div><div class="meta"><div class="name">Arya Bagus Wicaksono</div><div class="sub">Peace</div></div><div class="badge">Anggota</div></a>
+
+      <a class="card" href="https://toricelli123456-cmyk.github.io/bruh-meme/"><div class="avatar">A2</div><div class="meta"><div class="name">Fathin Azamil Khairy</div><div class="sub">Hope</div></div><div class="badge">Anggota</div></a>
+
+      <a class="card" href="https://padukagulu.github.io/Bawru/"><div class="avatar">A3</div><div class="meta"><div class="name">Muhammad Athaya Al Barraa</div><div class="sub">Abundance</div></div><div class="badge">Anggota</div></a>
+
+      <a class="card" href="https://ziezack07-hash.github.io/krush.github.io"><div class="avatar">A4</div><div class="meta"><div class="name">Zacky Zul Zahwan</div><div class="sub">Health</div></div><div class="badge">Anggota</div></a>
+
+    </section>
+
+  </main>
+</body>
+</html>
